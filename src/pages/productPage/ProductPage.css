@@ -1,0 +1,151 @@
+.ProductPage_main {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 3rem 0;
+}
+
+.prodpage_thought_main {
+  /* background-color: var(--color-blue);
+  color: aliceblue; */
+  background: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  min-height: 100px;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.prodpage_thought_inner {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.products_page_img_inner {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  /* transition: transform 0.3s ease; */
+}
+
+.products_page_img_main {
+  height: 200px;
+  width: 100%;
+}
+
+.products_page_title_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products_page_card_top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.products_page_card_main {
+  /* margin: 1.4rem; */
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.products_page_card_main:hover {
+  transform: scale(1.05);
+}
+
+.products_page_card_desc_main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.industries_filter_title_main {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.industries_filter_title {
+  /* background: rgb(188 37 28); */
+  color: white;
+  padding: 0.5rem 1rem;
+  /* padding: 0.7rem; */
+  cursor: pointer;
+  border-radius: 10px;
+}
+.propage_img_main {
+  height: 180px;
+  width: 300px;
+}
+.propage_name_main {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  font-weight: 600;
+}
+
+.propage_img_block {
+  padding: 3rem 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.viewChart_btn_main {
+  background-color: #e6011c !important;
+  border: none;
+  bottom: 45%;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0px;
+  position: fixed;
+  left: -108px;
+  text-align: center;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  z-index: 100;
+  -webkit-clip-path: polygon(
+    46px 0%,
+    calc(100% - 46px) 0%,
+    100% 48px,
+    100% calc(100% - 10px),
+    calc(100% - 0px) 100%,
+    0px 100%,
+    0% calc(100% - 0px),
+    0% 46px
+  );
+  width: 250px;
+}
+
+@media screen and (max-width: 580px) {
+  .propage_img_block {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+
+  .propage_img_main {
+    min-width: 250px;
+  }
+}

@@ -1,0 +1,87 @@
+.HomePgHero_main {
+  display: flex;
+}
+.HomePgHero_one {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 69, 152, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  /* background: var(--color_blue_shade); */
+  color: aliceblue;
+  width: 50%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.HomePgHero_two {
+  background: var(--color_orange_shade);
+  color: aliceblue;
+  width: 50%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .HomePgHero_main {
+    flex-direction: column;
+  }
+  .HomePgHero_one,
+  .HomePgHero_two {
+    width: 100%;
+  }
+}
+
+/* .homehero_gc_logo_main {
+  height: 300px;
+  width: 300px;
+}
+.homehero_gc_logo_inner {
+  width: 100%;
+  height: 100%;
+}
+
+.homehero_galaxychain_logos_main {
+  display: flex;
+  gap: 2rem;
+}
+
+.manufacturing_details_home_hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.INDUSTRIAL_ROLLER_CHAINS_H1 {
+  color: rgb(23 47 166);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 60px;
+  text-shadow: 2px 2px #838383;
+}
+
+.CUSTOMIZED_CONVEYOR_CHAINS_H1 {
+  color: darkorange;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 60px;
+  text-shadow: 2px 2px #838383;
+}
+
+@media screen and (max-width: 820px) {
+  .homehero_gc_logo_main {
+    height: 250px;
+    width: 250px;
+  }
+  .INDUSTRIAL_ROLLER_CHAINS_H1,.CUSTOMIZED_CONVEYOR_CHAINS_H1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 990px) {} */

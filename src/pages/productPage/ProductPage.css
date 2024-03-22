@@ -99,6 +99,7 @@
   justify-content: space-between;
   padding: 6px 10px;
   font-weight: 600;
+  justify-content: center;
 }
 
 .propage_img_block {
@@ -137,11 +138,24 @@
   width: 250px;
 }
 
+@media screen and (max-width: 1000px) {
+  .industries_filter_title_main {
+    overflow: scroll;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 2px;
+  }
+  .industries_filter_title {
+    padding: 10px;
+    min-width: 200px;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 580px) {
   .propage_img_block {
     overflow-x: scroll;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     padding-left: 15px;
   }
 

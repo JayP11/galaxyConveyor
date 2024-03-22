@@ -23,8 +23,13 @@ const CategorySliderHome = () => {
               <BsArrowRight color="#fff" size={20} />
             </Link>
 
-            <div className="cat_desc_part">
+            {/* <div className="cat_desc_part">
               <p className="cat_desc">Roller</p>
+              <p className="cat_desc">Chains</p>
+            </div> */}
+            <div className="cat_desc_part">
+              <p className="cat_desc">Steel</p>
+              <p className="cat_desc">Fabricated</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -36,7 +41,8 @@ const CategorySliderHome = () => {
             </Link>
 
             <div className="cat_desc_part">
-              <p className="cat_desc">Agriculture</p>
+              <p className="cat_desc">Forged</p>
+              <p className="cat_desc">Link</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -47,33 +53,10 @@ const CategorySliderHome = () => {
               <BsArrowRight color="#fff" size={20} />
             </Link>
 
-            <div className="cat_desc_part">
-              <p className="cat_desc">Leaf</p>
+            <div className="cat_desc_part" style={{ paddingTop: "1.5rem" }}>
+              <p className="cat_desc">Roller</p>
               <p className="cat_desc">Chains</p>
-            </div>
-          </div>
-
-          <div className="cat_card_main">
-            <img src={images.cat_bush} alt="" />
-            <Link to="ProductPage" className="cat_arrow_main">
-              <BsArrowRight color="#fff" size={20} />
-            </Link>
-            <div className="cat_desc_part">
-              <p className="cat_desc">Bush</p>
-
-              <p className="cat_desc">Chains</p>
-            </div>
-          </div>
-
-          <div className="cat_card_main">
-            <img src={images.cat_extended} alt="" />
-            <Link to="ProductPage" className="cat_arrow_main">
-              <BsArrowRight color="#fff" size={20} />
-            </Link>
-            <div className="cat_desc_part">
-              <p className="cat_desc">Extended</p>
-
-              <p className="cat_desc">Peach Chains</p>
+              <p className="cat_desc">And Attachments</p>
             </div>
           </div>
         </div>

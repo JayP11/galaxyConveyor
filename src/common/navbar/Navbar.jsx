@@ -15,7 +15,7 @@ const Navbar = () => {
             <img
               src={images.logo}
               alt=""
-              style={{ height: "100%", width: "100%" }}
+              style={{ width: "100%" }}
             />
           </Link>
           <div className="navbar_links_main">
@@ -25,7 +25,7 @@ const Navbar = () => {
                 className="nav_link_h3"
                 style={{
                   color:
-                    location.pathname === "/" ? "var(--color-blue)" : "black",
+                    location.pathname === "/" ? "var(--color_orange_shade)" : "black",
                   // fontWeight: "600",
                   fontWeight: location.pathname === "/" ? "600" : "500",
                 }}>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 style={{
                   color:
                     location.pathname === "/About"
-                      ? "var(--color-blue)"
+                      ? "var(--color_orange_shade)"
                       : "black",
                   fontWeight: location.pathname === "/About" ? "600" : "500",
                 }}>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 style={{
                   color:
                     location.pathname === "/ProductPage"
-                      ? "var(--color-blue)"
+                      ? "var(--color_orange_shade)"
                       : "black",
                   fontWeight:
                     location.pathname === "/ProductPage" ? "600" : "500",
@@ -67,7 +67,7 @@ const Navbar = () => {
                 style={{
                   color:
                     location.pathname === "/ProductPage"
-                      ? "var(--color-blue)"
+                      ? "var(--color_orange_shade)"
                       : "black",
                   fontWeight:
                     location.pathname === "/ProductPage" ? "600" : "500",
@@ -91,7 +91,7 @@ const Navbar = () => {
                 className="nav_link_h3"
                 style={{
                   color:
-                    location.pathname === "/q" ? "var(--color-blue)" : "black",
+                    location.pathname === "/q" ? "var(--color_orange_shade)" : "black",
                   // fontWeight: "600",
                   fontWeight: location.pathname === "/q" ? "600" : "500",
                 }}>
@@ -105,7 +105,7 @@ const Navbar = () => {
                 style={{
                   color:
                     location.pathname === "/Contact"
-                      ? "var(--color-blue)"
+                      ? "var(--color_orange_shade)"
                       : "black",
                   fontWeight: location.pathname === "/Contact" ? "600" : "500",
                   // fontWeight: "600",

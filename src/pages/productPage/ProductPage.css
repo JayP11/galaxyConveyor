@@ -5,15 +5,15 @@
 }
 
 .prodpage_thought_main {
-  /* background-color: var(--color-blue);
-  color: aliceblue; */
-  background: var(--color-blue);
+  /* background: var(--color-blue); */
+  background: darkorange;
   display: flex;
   justify-content: center;
   color: var(--color-white);
   min-height: 100px;
   align-items: center;
   gap: 1rem;
+  text-align: center;
   flex-direction: column;
 }
 
@@ -161,5 +161,9 @@
 
   .propage_img_main {
     min-width: 250px;
+  }
+
+  .prodpage_thought_inner {
+    font-size: 24px;
   }
 }

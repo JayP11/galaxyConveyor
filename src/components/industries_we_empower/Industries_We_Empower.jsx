@@ -101,9 +101,14 @@ const Industries_We_Empower = () => {
   return (
     <div className="Industries_We_Empower_main">
       <div>
-        <div className="heading">
+        {/* <div className="heading"> */}
+        <div className="heading_values_purpose">
           <h1>Industries We Empower</h1>
         </div>
+
+        {/* <div className="heading_values_purpose">
+          <h1>Core Purpose & Core Values</h1>
+        </div> */}
         <div className="underline"></div>
       </div>
       <div className="industry_box_top">

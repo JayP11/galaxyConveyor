@@ -42,7 +42,7 @@ const Footer = () => {
                   to="/contact"
                   className="btn"
                   style={{
-                    background: "var(--color-blue)",
+                    // background: "var(--color-blue)",
                     padding: "10px 43px",
                   }}>
                   GET IN TOUCH

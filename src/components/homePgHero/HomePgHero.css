@@ -35,6 +35,7 @@
   .HomePgHero_one,
   .HomePgHero_two {
     width: 100%;
+    height: 400px;
   }
 }
 

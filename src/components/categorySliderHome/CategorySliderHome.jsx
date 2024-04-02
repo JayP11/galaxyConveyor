@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
 
 const CategorySliderHome = () => {
   return (
@@ -18,18 +19,13 @@ const CategorySliderHome = () => {
         <div className="underline"></div>
         <div className="cat_card_main_flex">
           <div className="cat_card_main">
-            <img src={images.cat_roller} alt="" />
+            <img src={images.cat_roller} alt="" style={{ height: "100%" }} />
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
 
-            {/* <div className="cat_desc_part">
-              <p className="cat_desc">Roller</p>
-              <p className="cat_desc">Chains</p>
-            </div> */}
             <div className="cat_desc_part">
-              <p className="cat_desc">Steel</p>
-              <p className="cat_desc">Fabricated</p>
+              <p className="cat_desc">Roller</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -41,8 +37,7 @@ const CategorySliderHome = () => {
             </Link>
 
             <div className="cat_desc_part">
-              <p className="cat_desc">Forged</p>
-              <p className="cat_desc">Link</p>
+              <p className="cat_desc">Agriculture</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -52,11 +47,33 @@ const CategorySliderHome = () => {
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
-
-            <div className="cat_desc_part" style={{ paddingTop: "1.5rem" }}>
-              <p className="cat_desc">Roller</p>
+            <div className="cat_desc_part">
+              <p className="cat_desc">Leaf</p>
               <p className="cat_desc">Chains</p>
-              <p className="cat_desc">And Attachments</p>
+            </div>
+          </div>
+
+          <div className="cat_card_main">
+            <img src={images.cat_bush} alt="" />
+            <Link to="ProductPage" className="cat_arrow_main">
+              <BsArrowRight color="#fff" size={20} />
+            </Link>
+            <div className="cat_desc_part">
+              <p className="cat_desc">Bush</p>
+
+              <p className="cat_desc">Chains</p>
+            </div>
+          </div>
+
+          <div className="cat_card_main">
+            <img src={images.cat_extended} alt="" />
+            <Link to="ProductPage" className="cat_arrow_main">
+              <BsArrowRight color="#fff" size={20} />
+            </Link>
+            <div className="cat_desc_part">
+              <p className="cat_desc">Extended</p>
+
+              <p className="cat_desc">Peach Chains</p>
             </div>
           </div>
         </div>

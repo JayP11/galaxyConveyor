@@ -1,6 +1,5 @@
 .footer_down_main {
-  /* background: #f6f6f6; */
-  background: var(--color-red);
+  background: dimgray;
   width: 100%;
 }
 
@@ -17,7 +16,7 @@
 }
 
 .footer_down_text {
-  font-size: 14px;
+  /* font-size: 14px; */
   color: aliceblue;
   font-weight: 700;
   margin-bottom: 0px;

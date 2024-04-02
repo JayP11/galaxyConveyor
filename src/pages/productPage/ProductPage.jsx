@@ -193,15 +193,15 @@ const ProductPage = () => {
                   textDecorationThickness: item.id == getColor ? "5px" : "",
                   fontWeight: item.id == getColor ? "800" : "600",
                   textDecorationColor:
-                    item.id == getColor ? "var(--color-red)" : "",
+                    item.id == getColor ? "var(--color_orange_shade2)" : "",
                   color:
                     item.id == getColor
-                      ? "var(--color-blue)"
+                      ? "var(--color_orange_shade2)"
                       : "var(--color-gray)",
                   textUnderlineOffset: "10px",
                 }}
                 className="industries_filter_title"
-                onClick={() => {
+                onClick={() => { 
                   setchild(item.list);
                   setColor(item.id);
                   SetCondition(true);

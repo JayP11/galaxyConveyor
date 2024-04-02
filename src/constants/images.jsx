@@ -3,13 +3,11 @@ import gc_logo from "../assets/gc_logo.png";
 import logo from "../assets/logo.jpeg";
 import gconveyors from "../assets/gconveyors.png";
 import bg_img from "../assets/bg_img.jpeg";
-
 import quality_assurance from "../assets/quality_assurance.png";
 import customer_satisfaction from "../assets/customer_satisfaction.png";
 import mutual_growth from "../assets/mutual_growth.png";
 import teamwork from "../assets/teamwork.png";
 import respect_all from "../assets/respect_all.png";
-
 import agriculture from "../assets/agriculture.png";
 import sugarcane from "../assets/sugarcane.png";
 import escalator from "../assets/escalator.png";
@@ -21,7 +19,6 @@ import Fertilizer_Plants from "../assets/Fertilizer_Plants.png";
 import textile from "../assets/textile.png";
 import Steel_Plants from "../assets/Steel_Plants.png";
 import Cement_Plants from "../assets/Cement_Plants.png";
-
 import chain_img from "../assets/chain_img.jpeg";
 import global from "../assets/global.png";
 import india_location from "../assets/india_location.png";
@@ -31,15 +28,12 @@ import Happy_Customers from "../assets/Happy_Customers.png";
 import Manufacturing_Capacity from "../assets/Manufacturing_Capacity.png";
 import Manufacturing_Unitof from "../assets/Manufacturing_Unitof.png";
 import experience from "../assets/experience.png";
-
-import RollerChains from "../assets/RollerChains.png";
 import RollerChains_img from "../assets/RollerChains_img.png";
 import Chainimg from "../assets/Chainimg.jpeg";
 import RollerChain1 from "../assets/RollerChain1.png";
 import RollerChain2 from "../assets/RollerChain2.png";
 import RollerChain3 from "../assets/RollerChain3.png";
 import RollerChain4 from "../assets/RollerChain4.png";
-
 import cat_roller from "../assets/cat_roller.png";
 import cat_agriculture from "../assets/cat_agriculture.png";
 import cat_leaf from "../assets/cat_leaf.png";
@@ -54,7 +48,6 @@ import core_img5 from "../assets/core_img5.png";
 import home_slider_img1 from "../assets/home_slider_img1.jpg";
 import home_slider_img2 from "../assets/home_slider_img2.webp";
 import home_slider_img3 from "../assets/home_slider_img3.jpg";
-import RollerBritish from "../assets/RollerBritish.pdf";
 
 export default {
   bg_img,
@@ -68,7 +61,6 @@ export default {
   teamwork,
   respect_all,
   agriculture,
-  sugarcane,
   sugarcane,
   escalator,
   otherindustry,
@@ -88,7 +80,6 @@ export default {
   Manufacturing_Capacity,
   Manufacturing_Unitof,
   experience,
-  RollerChains,
   RollerChains_img,
   Chainimg,
   RollerChain1,
@@ -109,5 +100,4 @@ export default {
   home_slider_img1,
   home_slider_img2,
   home_slider_img3,
-  RollerBritish,
 };

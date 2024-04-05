@@ -155,7 +155,7 @@
   .propage_img_block {
     overflow-x: scroll;
     flex-wrap: nowrap;
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     padding-left: 15px;
   }
 

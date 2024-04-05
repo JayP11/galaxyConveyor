@@ -31,6 +31,9 @@ const Footer = () => {
               <Link to="/About" className="link_decor_footer">
                 <h4 className="footer_link_color">About</h4>
               </Link>
+              <Link to="/Contact" className="link_decor_footer">
+                <h4 className="footer_link_color">Contact us</h4>
+              </Link>
               <Link to="/ProductPage" className="link_decor_footer">
                 <h4 className="footer_link_color">Media</h4>
               </Link>
@@ -40,9 +43,8 @@ const Footer = () => {
               <div style={{ marginTop: "4rem" }} className="link_decor_footer">
                 <Link
                   to="/contact"
-                  className="btn"
+                  className="btn btn_org"
                   style={{
-                    background: "var(--color_orange_shade2)",
                     padding: "10px 43px",
                   }}>
                   GET IN TOUCH
@@ -120,7 +122,7 @@ const Footer = () => {
 
         <div className="Galaxy_Chains_block">
           <div style={{ color: "darkorange" }}>
-            <h3>Galaxy Conveyors pvt. ltd. Extende</h3>
+            <h3>Galaxy Conveyors pvt. ltd.</h3>
           </div>
           <div
             className="underline"

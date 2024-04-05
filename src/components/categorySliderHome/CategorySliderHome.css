@@ -62,7 +62,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem !important;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding-top: 3rem;
 }
 .cat_card_main {

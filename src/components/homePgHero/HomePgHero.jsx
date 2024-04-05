@@ -21,8 +21,10 @@ const HomePgHero = () => {
           <div style={{ marginTop: "2rem" }}>
             <Link
               to="https://theapplified.com/galaxychainfront"
-              className="btn"
-              style={{ marginTop: "2rem", background: "#19171A" }}>
+              className="btn btn_black"
+              style={{
+                marginTop: "2rem",
+              }}>
               Visit Now
             </Link>
           </div>

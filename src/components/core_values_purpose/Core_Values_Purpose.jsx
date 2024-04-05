@@ -6,9 +6,8 @@ const Core_Values_Purpose = () => {
   return (
     <div className="Core_Values_Purpose_main">
       <div>
-        <div className="heading_values_purpose">
+        <div className="heading">
           <h1>Core Purpose & Core Values</h1>
-          {/* <h1>Core Values </h1> */}
         </div>
         <div>
           <div className="underline"></div>

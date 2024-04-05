@@ -6,10 +6,10 @@ import Footer from "./common/footer/Footer";
 import ContactUsPage from "./pages/contactuspage/ContactUsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
 import RollerChains from "./pages/rollerChains/RollerChains";
-import LeafChains from "./pages/leafChains/LeafChains";
-import ExtendedPitchChains from "./pages/extendedPitchChains/ExtendedPitchChains";
-import AttachmentChains from "./pages/attachmentChains/AttachmentChains";
-import AgricultureChains from "./pages/agricultureChains/AgricultureChains";
+// import LeafChains from "./pages/leafChains/LeafChains";
+// import ExtendedPitchChains from "./pages/extendedPitchChains/ExtendedPitchChains";
+// import AttachmentChains from "./pages/attachmentChains/AttachmentChains";
+// import AgricultureChains from "./pages/agricultureChains/AgricultureChains";
 import ProductPage from "./pages/productPage/ProductPage";
 import FooterDown from "./common/footerDown/FooterDown";
 import ChartDemo from "./pages/chartDemo/ChartDemo";
@@ -36,14 +36,14 @@ function App() {
         <Route path="/Contact" element={<ContactUsPage />}></Route>
         <Route path="/ProductPage" element={<ProductPage />}></Route>
         <Route path="/RollerChains" element={<RollerChains />}></Route>
-        <Route
+        {/* <Route
           path="/ExtendedPitchChains"
-          element={<ExtendedPitchChains />}></Route>
-        <Route path="/LeafChains" element={<LeafChains />}></Route>
-        <Route path="/AttachmentChains" element={<AttachmentChains />}></Route>
-        <Route
+          element={<ExtendedPitchChains />}></Route> */}
+        {/* <Route path="/LeafChains" element={<LeafChains />}></Route> */}
+        {/* <Route path="/AttachmentChains" element={<AttachmentChains />}></Route> */}
+        {/* <Route
           path="/AgricultureChains"
-          element={<AgricultureChains />}></Route>
+          element={<AgricultureChains />}></Route> */}
         <Route path="/ChartDemo" element={<ChartDemo />}></Route>
 
         <Route

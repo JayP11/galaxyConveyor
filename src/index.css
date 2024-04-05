@@ -69,7 +69,32 @@ h1 {
   color: white;
   font-weight: bold;
   font-size: 16px;
-  border: none;
+    transition: all ease-in-out 0.5s;
+  border: 2px solid var(--color-red);
+}
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.btn_black {
+  background-color: #19171a;
+  border: 2px solid #19171a;
+    transition: all ease-in-out 0.5s;
+}
+.btn_black:hover {
+  border: 2px solid;
+  background-color: transparent;
+}
+.btn_org {
+  background-color: var(--color_orange_shade2);
+  border: 2px solid var(--color_orange_shade2);
+  transition: all ease-in-out 0.5s;
+}
+.btn_org:hover {
+  border: 2px solid var(--color_orange_shade2);
+  color: var(--color_orange_shade2);
+  background-color: transparent;
 }
 a {
   color: black;
@@ -93,3 +118,9 @@ a {
     font-size: 12px;
   }
 }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */

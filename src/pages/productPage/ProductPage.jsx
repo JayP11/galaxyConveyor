@@ -204,11 +204,11 @@ const ProductPage = () => {
     },
     {
       id: 4,
-      name: "Welded Bush Chains",
+      name: "Welded Bushed Chains",
       list: [
         {
           id: 1,
-          name: "Welded Bush Chains",
+          name: "Welded Bushed Chains",
           img: require("../../assets/RollerChain1.png"),
           link: "/WeldedChains",
         },
@@ -216,7 +216,8 @@ const ProductPage = () => {
     },
     {
       id: 5,
-      name: "Pin Chains",
+      name: "Hollow & Solid Pin Chains",
+      // name: "Pin Chains",
       list: [
         {
           id: 1,
@@ -234,24 +235,6 @@ const ProductPage = () => {
     },
     {
       id: 6,
-      name: "Forged Chains",
-      list: [
-        {
-          id: 1,
-          name: "Rivetless Type Chains",
-          img: require("../../assets/RollerChain1.png"),
-          link: "/RivetlessType",
-        },
-        {
-          id: 2,
-          name: "Drag Chains",
-          img: require("../../assets/RollerChain1.png"),
-          link: "/DragChains",
-        },
-      ],
-    },
-    {
-      id: 7,
       name: "Bottling Chains",
       list: [
         {
@@ -268,15 +251,33 @@ const ProductPage = () => {
         },
       ],
     },
+    {
+      id: 7,
+      name: "Forged Chains",
+      list: [
+        {
+          id: 1,
+          name: "Rivetless Type Chains",
+          img: require("../../assets/RollerChain1.png"),
+          link: "/RivetlessType",
+        },
+        {
+          id: 2,
+          name: "Drag Chains",
+          img: require("../../assets/RollerChain1.png"),
+          link: "/DragChains",
+        },
+      ],
+    },
     // {
-    //   id: 9,
-    //   name: "Detachable Type",
+    //   id: 8,
+    //   name: "Offsetside Link",
     //   list: [
     //     {
     //       id: 1,
-    //       name: "Detachable Type",
+    //       name: "Offsetside Link",
     //       img: require("../../assets/RollerChain1.png"),
-    //       link: "/DetachableType",
+    //       link: "/OffsetsideLinkChain",
     //     },
     //   ],
     // },

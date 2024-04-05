@@ -1,6 +1,6 @@
 .footer_down_main {
-  /* background: dimgray; */
-  background: var(--color-red);
+  background: black;
+  /* background: var(--color-red); */
   width: 100%;
 }
 

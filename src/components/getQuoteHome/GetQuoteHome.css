@@ -1,8 +1,10 @@
 .GetQuoteHome_main {
-  background: var(--color-blue);
+  /* background: var(--color-blue); */
+  /* color: var(--color-lightgray); */
+  background: darkorange;
+    color: white;
   display: flex;
   justify-content: center;
-  color: var(--color-lightgray);
   min-height: 300px;
   align-items: center;
   gap: 1rem;

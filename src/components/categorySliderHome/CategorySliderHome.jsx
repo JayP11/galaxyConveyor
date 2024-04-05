@@ -37,7 +37,7 @@ const CategorySliderHome = () => {
             </Link>
 
             <div className="cat_desc_part">
-              <p className="cat_desc">Agriculture</p>
+              <p className="cat_desc">Bushed</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const CategorySliderHome = () => {
               <BsArrowRight color="#fff" size={20} />
             </Link>
             <div className="cat_desc_part">
-              <p className="cat_desc">Leaf</p>
+              <p className="cat_desc">Flow Conveyor</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -59,8 +59,7 @@ const CategorySliderHome = () => {
               <BsArrowRight color="#fff" size={20} />
             </Link>
             <div className="cat_desc_part">
-              <p className="cat_desc">Bush</p>
-
+              <p className="cat_desc">Welded Bush</p>
               <p className="cat_desc">Chains</p>
             </div>
           </div>
@@ -71,9 +70,25 @@ const CategorySliderHome = () => {
               <BsArrowRight color="#fff" size={20} />
             </Link>
             <div className="cat_desc_part">
-              <p className="cat_desc">Extended</p>
-
-              <p className="cat_desc">Peach Chains</p>
+              <p className="cat_desc">Hollow Bearing Pin Chain</p>
+            </div>
+          </div>
+          <div className="cat_card_main">
+            <img src={images.cat_extended} alt="" />
+            <Link to="ProductPage" className="cat_arrow_main">
+              <BsArrowRight color="#fff" size={20} />
+            </Link>
+            <div className="cat_desc_part">
+              <p className="cat_desc">Bottling Chains</p>
+            </div>
+          </div>
+          <div className="cat_card_main">
+            <img src={images.cat_extended} alt="" />
+            <Link to="ProductPage" className="cat_arrow_main">
+              <BsArrowRight color="#fff" size={20} />
+            </Link>
+            <div className="cat_desc_part">
+              <p className="cat_desc">Forged Chains</p>
             </div>
           </div>
         </div>

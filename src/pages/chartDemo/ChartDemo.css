@@ -66,6 +66,7 @@
 table {
   border-collapse: collapse;
   text-align: center;
+  width: 100%;
 }
 td {
   border: 3px solid;
@@ -92,7 +93,6 @@ th {
     max-width: 1000px;
   }
 }
-
 @media screen and (max-width: 1000px) {
   .table_main {
     max-width: 900px;

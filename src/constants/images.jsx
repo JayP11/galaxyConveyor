@@ -28,12 +28,12 @@ import Happy_Customers from "../assets/Happy_Customers.png";
 import Manufacturing_Capacity from "../assets/Manufacturing_Capacity.png";
 import Manufacturing_Unitof from "../assets/Manufacturing_Unitof.png";
 import experience from "../assets/experience.png";
-import RollerChains_img from "../assets/RollerChains_img.png";
+// import RollerChains_img from "../assets/RollerChains_img.png";
 import Chainimg from "../assets/Chainimg.jpeg";
-import RollerChain1 from "../assets/RollerChain1.png";
-import RollerChain2 from "../assets/RollerChain2.png";
-import RollerChain3 from "../assets/RollerChain3.png";
-import RollerChain4 from "../assets/RollerChain4.png";
+// import RollerChain1 from "../assets/RollerChain1.png";
+// import RollerChain2 from "../assets/RollerChain2.png";
+// import RollerChain3 from "../assets/RollerChain3.png";
+// import RollerChain4 from "../assets/RollerChain4.png";
 import cat_roller from "../assets/cat_roller.png";
 import cat_agriculture from "../assets/cat_agriculture.png";
 import cat_leaf from "../assets/cat_leaf.png";
@@ -48,6 +48,18 @@ import core_img5 from "../assets/core_img5.png";
 import home_slider_img1 from "../assets/home_slider_img1.jpg";
 import home_slider_img2 from "../assets/home_slider_img2.webp";
 import home_slider_img3 from "../assets/home_slider_img3.jpg";
+
+import SmallRoller from "../assets/SmallRoller.jpg";
+import FlangedRoller from "../assets/FlangedRoller.png";
+import BushedChain from "../assets/BushedChain.jpg";
+import FlowConveyor from "../assets/FlowConveyor.png";
+import WeldedBush from "../assets/WeldedBush.jpg";
+import HollowPin from "../assets/HollowPin.png";
+import SolidPin from "../assets/SolidPin.jpg";
+import RivettedBottlingChain from "../assets/RivettedBottlingChain.png";
+import DetachableBottlingChain from "../assets/DetachableBottlingChain.png";
+import Rivetless from "../assets/Rivetless.jpg";
+import Drag from "../assets/Drag.jpg";
 
 export default {
   bg_img,
@@ -80,12 +92,7 @@ export default {
   Manufacturing_Capacity,
   Manufacturing_Unitof,
   experience,
-  RollerChains_img,
   Chainimg,
-  RollerChain1,
-  RollerChain2,
-  RollerChain3,
-  RollerChain4,
   cat_roller,
   cat_agriculture,
   cat_leaf,
@@ -100,4 +107,15 @@ export default {
   home_slider_img1,
   home_slider_img2,
   home_slider_img3,
+  SmallRoller,
+  FlangedRoller,
+  BushedChain,
+  FlowConveyor,
+  WeldedBush,
+  HollowPin,
+  SolidPin,
+  RivettedBottlingChain,
+  DetachableBottlingChain,
+  Rivetless,
+  Drag,
 };

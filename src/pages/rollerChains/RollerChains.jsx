@@ -22,7 +22,7 @@ const RollerChains = () => {
         </div>
         <div className="RollerChains_img_main">
           <img
-            src={images.RollerChains_img}
+            // src={images.RollerChains_img}
             className="RollerChains_img_inner"
             alt="RollerChains_img"
           />

@@ -1,11 +1,21 @@
 {
   "files": {
-    "main.css": "/galaxyconveyorfront/static/css/main.482f8ceb.css",
-    "main.js": "/galaxyconveyorfront/static/js/main.aa3bea91.js",
+    "main.css": "/galaxyconveyorfront/static/css/main.924eb46b.css",
+    "main.js": "/galaxyconveyorfront/static/js/main.d60d5d62.js",
+    "static/media/BushedChain.jpg": "/galaxyconveyorfront/static/media/BushedChain.7e978ef4a9c99fd4040d.jpg",
+    "static/media/FlowConveyor.png": "/galaxyconveyorfront/static/media/FlowConveyor.794078c8e084402f0982.png",
+    "static/media/RivettedBottlingChain.png": "/galaxyconveyorfront/static/media/RivettedBottlingChain.c011bae3f52a1d1e1c92.png",
+    "static/media/DetachableBottlingChain.png": "/galaxyconveyorfront/static/media/DetachableBottlingChain.e96fa4f1b94637f6e2a7.png",
+    "static/media/HollowPin.png": "/galaxyconveyorfront/static/media/HollowPin.e2341d65572dc547462f.png",
+    "static/media/FlangedRoller.png": "/galaxyconveyorfront/static/media/FlangedRoller.c2102fdc2abeca810ccb.png",
     "static/media/Factory_img.png": "/galaxyconveyorfront/static/media/Factory_img.15b957349911d290f907.png",
-    "static/media/RollerChains_img.png": "/galaxyconveyorfront/static/media/RollerChains_img.dd85db7b3cab696cc16e.png",
+    "static/media/Drag.jpg": "/galaxyconveyorfront/static/media/Drag.ca371136293de1944e67.jpg",
     "static/media/chain_img.jpeg": "/galaxyconveyorfront/static/media/chain_img.6b5d9d1ccf86e4da1d67.jpeg",
+    "static/media/Rivetless.jpg": "/galaxyconveyorfront/static/media/Rivetless.d7cb2acab5fcb2cb503c.jpg",
+    "static/media/WeldedBush.jpg": "/galaxyconveyorfront/static/media/WeldedBush.d8444776790bc9699473.jpg",
+    "static/media/SolidPin.jpg": "/galaxyconveyorfront/static/media/SolidPin.cba14e3e3dd303258100.jpg",
     "static/media/Chainimg.jpeg": "/galaxyconveyorfront/static/media/Chainimg.c2dba1e2f815428f89d6.jpeg",
+    "static/media/SmallRoller.jpg": "/galaxyconveyorfront/static/media/SmallRoller.1c691c65b745b7383ddd.jpg",
     "static/media/gconveyors.png": "/galaxyconveyorfront/static/media/gconveyors.fdadc66ce9e88fde5c9d.png",
     "static/media/respect_all.png": "/galaxyconveyorfront/static/media/respect_all.2913166c5e26877ca036.png",
     "static/media/home_slider_img1.jpg": "/galaxyconveyorfront/static/media/home_slider_img1.e4a7ec50992848fd4886.jpg",
@@ -13,17 +23,13 @@
     "static/media/quality_assurance.png": "/galaxyconveyorfront/static/media/quality_assurance.bbbfc16f0ba0b58895c4.png",
     "static/media/home_slider_img2.webp": "/galaxyconveyorfront/static/media/home_slider_img2.5846b142243233fb7029.webp",
     "static/media/teamwork.png": "/galaxyconveyorfront/static/media/teamwork.e2ecdbf246b26d6e2435.png",
-    "static/media/RollerChain2.png": "/galaxyconveyorfront/static/media/RollerChain2.43c6144fcfd3d209714f.png",
     "static/media/cat_leaf.png": "/galaxyconveyorfront/static/media/cat_leaf.d148c41d5456069f06cd.png",
     "static/media/mutual_growth.png": "/galaxyconveyorfront/static/media/mutual_growth.3e33c943253b4349810a.png",
     "static/media/agriculture.png": "/galaxyconveyorfront/static/media/agriculture.f55b43835bd78c2f9a02.png",
     "static/media/customer_satisfaction.png": "/galaxyconveyorfront/static/media/customer_satisfaction.b3537a1384a0a59c0e92.png",
-    "static/media/RollerChain3.png": "/galaxyconveyorfront/static/media/RollerChain3.e848b0445006f1831275.png",
-    "static/media/RollerChain4.png": "/galaxyconveyorfront/static/media/RollerChain4.12d42d48a8bf9cee3cf3.png",
     "static/media/cat_agriculture.png": "/galaxyconveyorfront/static/media/cat_agriculture.f0896ed724276e29ed12.png",
     "static/media/cat_bush.png": "/galaxyconveyorfront/static/media/cat_bush.ed8e4090414ac694d431.png",
     "static/media/cat_extended.png": "/galaxyconveyorfront/static/media/cat_extended.886c2a4c2df4fb4dbff5.png",
-    "static/media/RollerChain1.png": "/galaxyconveyorfront/static/media/RollerChain1.767e3661494f1fddc771.png",
     "static/media/gc_logo.png": "/galaxyconveyorfront/static/media/gc_logo.6133a6f982aea642799e.png",
     "static/media/bg_img.jpeg": "/galaxyconveyorfront/static/media/bg_img.5a82ed162847dac255f2.jpeg",
     "static/media/logo.jpeg": "/galaxyconveyorfront/static/media/logo.3156d3349f3896b06af1.jpeg",
@@ -34,11 +40,11 @@
     "static/media/slick.ttf": "/galaxyconveyorfront/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/galaxyconveyorfront/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/galaxyconveyorfront/index.html",
-    "main.482f8ceb.css.map": "/galaxyconveyorfront/static/css/main.482f8ceb.css.map",
-    "main.aa3bea91.js.map": "/galaxyconveyorfront/static/js/main.aa3bea91.js.map"
+    "main.924eb46b.css.map": "/galaxyconveyorfront/static/css/main.924eb46b.css.map",
+    "main.d60d5d62.js.map": "/galaxyconveyorfront/static/js/main.d60d5d62.js.map"
   },
   "entrypoints": [
-    "static/css/main.482f8ceb.css",
-    "static/js/main.aa3bea91.js"
+    "static/css/main.924eb46b.css",
+    "static/js/main.d60d5d62.js"
   ]
 }

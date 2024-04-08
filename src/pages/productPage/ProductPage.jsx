@@ -165,14 +165,14 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Small Roller Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/SmallRoller.jpg"),
           // category: "British Standard",
           link: "/SmallRollerChains",
         },
         {
           id: 2,
           name: "Flanged Rollers",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/FlangedRoller.png"),
           // category: "British Standard",
           link: "/FlangedRollers",
         },
@@ -185,7 +185,7 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Bushed Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/BushedChain.jpg"),
           link: "/BushChain",
         },
       ],
@@ -196,8 +196,8 @@ const ProductPage = () => {
       list: [
         {
           id: 1,
-          name: "Flow Conveyo Chains",
-          img: require("../../assets/RollerChain1.png"),
+          name: "Flow Conveyor Chains",
+          img: require("../../assets/FlowConveyor.png"),
           link: "/FlowConveyor",
         },
       ],
@@ -209,7 +209,7 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Welded Bushed Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/WeldedBush.jpg"),
           link: "/WeldedChains",
         },
       ],
@@ -222,13 +222,13 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Hollow Bearing Pin Chain",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/HollowPin.png"),
           link: "/HollowBearingPinChain",
         },
         {
           id: 2,
           name: "Solid Bearing Pin Chain",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/SolidPin.jpg"),
           link: "/SolidBearingPinChain",
         },
       ],
@@ -240,13 +240,13 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Rivet type Bottling Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/RivettedBottlingChain.png"),
           link: "/RivetType",
         },
         {
           id: 2,
           name: "Detachable type Bottling Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/DetachableBottlingChain.png"),
           link: "/DetachableType",
         },
       ],
@@ -258,13 +258,13 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Rivetless Type Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/Rivetless.jpg"),
           link: "/RivetlessType",
         },
         {
           id: 2,
           name: "Drag Chains",
-          img: require("../../assets/RollerChain1.png"),
+          img: require("../../assets/Drag.jpg"),
           link: "/DragChains",
         },
       ],
@@ -323,14 +323,14 @@ const ProductPage = () => {
     {
       id: 1,
       name: "Small Roller Chains",
-      img: require("../../assets/RollerChain1.png"),
+      img: require("../../assets/SmallRoller.jpg"),
       // category: "British Standard",
       link: "/SmallRollerChains",
     },
     {
       id: 2,
       name: "Flanged Rollers",
-      img: require("../../assets/RollerChain1.png"),
+      img: require("../../assets/FlangedRoller.png"),
       // category: "British Standard",
       link: "/FlangedRollers",
     },

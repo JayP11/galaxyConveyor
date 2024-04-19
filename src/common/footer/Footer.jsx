@@ -9,10 +9,6 @@ const Footer = () => {
   return (
     <div style={{ boxShadow: "rgba(0, 0, 0, 0.2) 0px 18px 50px -10px" }}>
       <div className="Footer_main">
-        {/* <div className="heading">
-        <h1>Galaxy Chains pvt. ltd.</h1><br/>
-        <h1>Galaxy Conveyors pvt. ltd. Extende</h1>
-      </div> */}
         <div>
           <div className="links_sec_footer">
             <h3>Quick Links</h3>

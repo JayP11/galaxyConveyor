@@ -14,6 +14,7 @@ const SmallRollerChains = () => {
       <Helmet>
         <title>Galaxy Chain | Small Roller Chains</title>
       </Helmet>
+
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
@@ -27,6 +28,26 @@ const SmallRollerChains = () => {
           </span> */}
         </div>
 
+        <div
+          style={{
+            display: "flex",
+            gap: "2rem",
+          }}>
+          <div>
+            <img
+              src={images.demo}
+              alt=""
+              style={{ height: "100%", width: "100%" }}
+            />
+          </div>
+          <div>
+            <img
+              src={images.demo}
+              alt=""
+              style={{ height: "100%", width: "100%" }}
+            />
+          </div>
+        </div>
         {/*  */}
         <div className="table_main">
           <table width="455">

@@ -9,6 +9,7 @@
   display: flex;
   gap: 2.5rem;
   padding: 0 2rem;
+  align-items: center;
 }
 
 .c_form {
@@ -30,6 +31,17 @@
   width: 50%;
 }
 
+.btn_form_red {
+  background: darkorange;
+  border: 2px solid darkorange;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn_form_red:hover {
+  border: 2px solid darkorange;
+  color: darkorange;
+}
 
 @media screen and (max-width: 768px) {
   .ContactUsPage_form {

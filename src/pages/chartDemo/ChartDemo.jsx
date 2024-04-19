@@ -3,6 +3,7 @@ import "./ChartDemo.css";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { IoChevronBackCircle } from "react-icons/io5";
+import images from "../../constants/images";
 
 const ChartDemo = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const ChartDemo = () => {
           <h3>BRITISH STANDARD</h3>
           <span>[As per BS 228 / DIN 8187 / IS 2403 / ISO 606]</span>
         </div>
-
+       
         {/*  */}
         <div className="table_main">
           {/* <table>

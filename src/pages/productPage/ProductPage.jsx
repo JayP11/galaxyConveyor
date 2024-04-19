@@ -216,8 +216,7 @@ const ProductPage = () => {
     },
     {
       id: 5,
-      name: "Hollow & Solid Pin Chains",
-      // name: "Pin Chains",
+      name: "Hollow & Solid Pin",
       list: [
         {
           id: 1,

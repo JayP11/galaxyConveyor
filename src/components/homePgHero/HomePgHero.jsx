@@ -7,16 +7,16 @@ const HomePgHero = () => {
     <div className="HomePgHero_main">
       <div className="HomePgHero_one">
         <div>
-          <span style={{ fontSize: "18px" }}>MANUFACTURER OF </span>
+          <span className="HomePgHero_name_MANUFACTURER">MANUFACTURER OF </span>
           <br />
-          <span style={{ fontSize: "30px", letterSpacing: "3px" }}>
-            INDUSTRIAL{" "}
-          </span>
+          <span className="HomePgHero_name_cat">INDUSTRIAL </span>
           <br />
-          <span style={{ fontSize: "50px", fontWeight: "900" }}>
+          <span className="HomePgHero_name_head">
+            {" "}
             ROLLER
             <br /> CHAINS
           </span>
+
           <br />
           <div style={{ marginTop: "2rem" }}>
             <Link
@@ -32,7 +32,15 @@ const HomePgHero = () => {
       </div>
       <div className="HomePgHero_two">
         <div>
-          <span style={{ fontSize: "18px" }}>MANUFACTURER OF </span>
+          <span className="HomePgHero_name_MANUFACTURER">MANUFACTURER OF </span>
+          <br />
+          <span className="HomePgHero_name_cat">CUSTOMIZED </span>
+          <br />
+          <span className="HomePgHero_name_head">
+            CONVEYOR <br />
+            CHAINS{" "}
+          </span>
+          {/* <span style={{ fontSize: "18px" }}>MANUFACTURER OF </span>
           <br />
           <span style={{ fontSize: "30px", letterSpacing: "3px" }}>
             CUSTOMIZED{" "}
@@ -41,7 +49,7 @@ const HomePgHero = () => {
           <span style={{ fontSize: "50px", fontWeight: "900" }}>
             CONVEYOR <br />
             CHAINS{" "}
-          </span>{" "}
+          </span>{" "} */}
           <br />
           <div style={{ marginTop: "2rem" }}>
             <Link

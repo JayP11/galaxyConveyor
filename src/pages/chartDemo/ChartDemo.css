@@ -1,7 +1,7 @@
 .ChartDemo_main {
   /* margin: 0 auto;
   max-width: 1140px; */
-  padding: 4rem 0;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -69,12 +69,12 @@ table {
   width: 100%;
 }
 td {
-  border: 3px solid;
+  border: 1px solid gray;
   padding: 5px;
   background: lightgray;
 }
 th {
-  border: 3px solid var(--color-black);
+  border: 1px solid gray;
   padding: 10px 15px;
   width: 100px !important;
   font-size: 18px;

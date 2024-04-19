@@ -7,16 +7,13 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const location = useLocation();
+
   return (
     <div style={{ boxShadow: "rgba(0, 0, 0, 0.2) 0px 18px 50px -10px" }}>
       <div className="nav-main-nav">
         <nav className="Navbar_main">
           <Link to="/" style={{ height: "85px", width: "85px" }}>
-            <img
-              src={images.logo}
-              alt=""
-              style={{ width: "100%" }}
-            />
+            <img src={images.logo} alt="" style={{ width: "100%" }} />
           </Link>
           <div className="navbar_links_main">
             <div className="link_decor_nav">
@@ -25,7 +22,9 @@ const Navbar = () => {
                 className="nav_link_h3"
                 style={{
                   color:
-                    location.pathname === "/" ? "var(--color_orange_shade)" : "black",
+                    location.pathname === "/"
+                      ? "var(--color_orange_shade)"
+                      : "black",
                   // fontWeight: "600",
                   fontWeight: location.pathname === "/" ? "600" : "500",
                 }}>
@@ -85,19 +84,21 @@ const Navbar = () => {
                 <Link to="/AgricultureChains">Agriculture Chains</Link>
               </div>
             </div> */}
-            <div className="link_decor_nav">
+            {/* <div className="link_decor_nav">
               <Link
                 to="/"
                 className="nav_link_h3"
                 style={{
                   color:
-                    location.pathname === "/q" ? "var(--color_orange_shade)" : "black",
+                    location.pathname === "/q"
+                      ? "var(--color_orange_shade)"
+                      : "black",
                   // fontWeight: "600",
                   fontWeight: location.pathname === "/q" ? "600" : "500",
                 }}>
                 Media
               </Link>
-            </div>
+            </div> */}
             <div className="link_decor_nav">
               <Link
                 to="/Contact"
@@ -140,13 +141,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <div className="dropdown">
-                <Link to="/About" className="mobile-nav-link">
+                <Link
+                  to="/About"
+                  className="mobile-nav-link"
+                  onClick={() => setToggleMenu(false)}>
                   About
                   <i className="fa fa-caret-down"></i>
                 </Link>
               </div>
               <div className="dropdown">
-                <Link to="/ProductPage" className="mobile-nav-link">
+                <Link
+                  to="/ProductPage"
+                  className="mobile-nav-link"
+                  onClick={() => setToggleMenu(false)}>
                   Products
                   <i className="fa fa-caret-down"></i>
                 </Link>
@@ -175,7 +182,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to={"/Contact"}
-                  // onClick={() => setToggleMenu(false)}
+                  onClick={() => setToggleMenu(false)}
                   className="mobile-nav-link">
                   Contact
                 </Link>

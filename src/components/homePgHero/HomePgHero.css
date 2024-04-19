@@ -28,9 +28,25 @@
   letter-spacing: 2px;
 }
 
+
+.HomePgHero_name_cat {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.HomePgHero_name_MANUFACTURER {
+  font-size: 18px;
+}
+
+.HomePgHero_name_head {
+  font-size: 50px;
+  font-weight: 900;
+}
 @media screen and (max-width: 768px) {
   .HomePgHero_main {
     flex-direction: column;
+  }
+   .HomePgHero_name_head {
+    font-size: 40px;
   }
   .HomePgHero_one,
   .HomePgHero_two {

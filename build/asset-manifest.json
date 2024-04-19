@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/galaxyconveyorfront/static/css/main.924eb46b.css",
-    "main.js": "/galaxyconveyorfront/static/js/main.d60d5d62.js",
+    "main.css": "/galaxyconveyorfront/static/css/main.f877d96b.css",
+    "main.js": "/galaxyconveyorfront/static/js/main.355c4933.js",
     "static/media/BushedChain.jpg": "/galaxyconveyorfront/static/media/BushedChain.7e978ef4a9c99fd4040d.jpg",
     "static/media/FlowConveyor.png": "/galaxyconveyorfront/static/media/FlowConveyor.794078c8e084402f0982.png",
     "static/media/RivettedBottlingChain.png": "/galaxyconveyorfront/static/media/RivettedBottlingChain.c011bae3f52a1d1e1c92.png",
@@ -23,6 +23,7 @@
     "static/media/quality_assurance.png": "/galaxyconveyorfront/static/media/quality_assurance.bbbfc16f0ba0b58895c4.png",
     "static/media/home_slider_img2.webp": "/galaxyconveyorfront/static/media/home_slider_img2.5846b142243233fb7029.webp",
     "static/media/teamwork.png": "/galaxyconveyorfront/static/media/teamwork.e2ecdbf246b26d6e2435.png",
+    "static/media/About_head.png": "/galaxyconveyorfront/static/media/About_head.22c335c846f97f61e3e4.png",
     "static/media/cat_leaf.png": "/galaxyconveyorfront/static/media/cat_leaf.d148c41d5456069f06cd.png",
     "static/media/mutual_growth.png": "/galaxyconveyorfront/static/media/mutual_growth.3e33c943253b4349810a.png",
     "static/media/agriculture.png": "/galaxyconveyorfront/static/media/agriculture.f55b43835bd78c2f9a02.png",
@@ -40,11 +41,11 @@
     "static/media/slick.ttf": "/galaxyconveyorfront/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/galaxyconveyorfront/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/galaxyconveyorfront/index.html",
-    "main.924eb46b.css.map": "/galaxyconveyorfront/static/css/main.924eb46b.css.map",
-    "main.d60d5d62.js.map": "/galaxyconveyorfront/static/js/main.d60d5d62.js.map"
+    "main.f877d96b.css.map": "/galaxyconveyorfront/static/css/main.f877d96b.css.map",
+    "main.355c4933.js.map": "/galaxyconveyorfront/static/js/main.355c4933.js.map"
   },
   "entrypoints": [
-    "static/css/main.924eb46b.css",
-    "static/js/main.d60d5d62.js"
+    "static/css/main.f877d96b.css",
+    "static/js/main.355c4933.js"
   ]
 }

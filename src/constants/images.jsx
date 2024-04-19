@@ -60,9 +60,13 @@ import RivettedBottlingChain from "../assets/RivettedBottlingChain.png";
 import DetachableBottlingChain from "../assets/DetachableBottlingChain.png";
 import Rivetless from "../assets/Rivetless.jpg";
 import Drag from "../assets/Drag.jpg";
+import About_head from "../assets/About_head.png";
+import demo from "../assets/demo.jpg";
 
 export default {
+  demo,
   bg_img,
+  About_head,
   Factory_img,
   gc_logo,
   logo,

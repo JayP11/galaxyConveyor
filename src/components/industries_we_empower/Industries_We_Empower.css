@@ -1,4 +1,4 @@
-/* .home_slider_card_main {
+.home_slider_card_main {
   width: 375px !important;
   height: 220px;
   position: relative;
@@ -55,11 +55,11 @@
   .home_slider_card_main {
     width: 100% !important;
   }
-} */
+}
 
 /*  */
 
-.Industries_We_Empower_main {
+/* .Industries_We_Empower_main {
   margin: 0 auto;
   max-width: 1140px;
   padding: 3rem 0;
@@ -123,4 +123,4 @@
   .industry_box_top {
     gap: 1rem;
   }
-}
+} */

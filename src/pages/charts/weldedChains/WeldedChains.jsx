@@ -17,7 +17,8 @@ const WeldedChains = () => {
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
-          style={{ width: "100%", gap: "10px", padding: "2rem" }}>
+          style={{ width: "100%", gap: "10px", padding: "2rem" }}
+        >
           <h2 className="prodpage_thought_inner">Welded Chains</h2>
           {/* <span>
             TRIPLE STRAND - TRIPLEX&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,7 +27,22 @@ const WeldedChains = () => {
             606]
           </span> */}
         </div>
-
+        <div className="chart_chainGraph_imgs_main">
+          <div>
+            <img
+              src={images.WeldedBushChain_Img}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
+          <div>
+            <img
+              src={images.WeldedBushChain_Graph}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
+        </div>
         {/*  */}
         <div className="table_main">
           <table width="466">

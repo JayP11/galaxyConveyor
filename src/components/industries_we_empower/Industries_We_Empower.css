@@ -35,8 +35,9 @@
 
 .home_slider_img_txt {
   color: var(--color-white);
-  font-size: 16px;
   font-weight: 600;
+  font-size: 23px;
+  background: #203186;
 }
 
 @media screen and (max-width: 1080px) {

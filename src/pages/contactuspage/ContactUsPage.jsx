@@ -87,14 +87,15 @@ const ContactUsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Galaxy Conveyor | Contact</title>
+        <title>Galaxy Conveyor Pvt. Ltd.| Contact</title>
       </Helmet>
       <div className="hero_path">
         <h1>
           <Link
             className="GetQuoteHome_main"
             to="/"
-            style={{ minHeight: "100%" }}>
+            style={{ minHeight: "100%" }}
+          >
             Home&nbsp;&nbsp;/
           </Link>
         </h1>
@@ -158,7 +159,8 @@ const ContactUsPage = () => {
               placeholder="Please leave message here..."
               value={description}
               className="c-msg-txt"
-              onChange={(e) => setdescription(e.target.value)}></textarea>
+              onChange={(e) => setdescription(e.target.value)}
+            ></textarea>
             <button className="btn btn_form_red" onClick={() => contactApi()}>
               Submit
             </button>
@@ -174,7 +176,8 @@ const ContactUsPage = () => {
             // style="border:0;"
             allowFullScreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"></iframe>
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </>

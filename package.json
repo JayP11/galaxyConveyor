@@ -2,7 +2,7 @@
   "name": "galaxy_conveyor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://theapplified.com/galaxyconveyorfront/",
+  "homepage": "https://galaxyconveyors.com/",
   "dependencies": {
     "@react-pdf/renderer": "^3.3.8",
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.12.0",
     "react-modal": "^3.16.1",

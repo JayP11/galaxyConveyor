@@ -5,11 +5,7 @@ import Navbar from "./common/navbar/Navbar";
 import Footer from "./common/footer/Footer";
 import ContactUsPage from "./pages/contactuspage/ContactUsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
-import RollerChains from "./pages/rollerChains/RollerChains";
-// import LeafChains from "./pages/leafChains/LeafChains";
-// import ExtendedPitchChains from "./pages/extendedPitchChains/ExtendedPitchChains";
-// import AttachmentChains from "./pages/attachmentChains/AttachmentChains";
-// import AgricultureChains from "./pages/agricultureChains/AgricultureChains";
+import RollerChains from "./pages/rollerChains/RollerChains"; 
 import ProductPage from "./pages/productPage/ProductPage";
 import FooterDown from "./common/footerDown/FooterDown";
 import ChartDemo from "./pages/chartDemo/ChartDemo";
@@ -25,10 +21,14 @@ import DetachableType from "./pages/charts/detachableType/DetachableType";
 import RivetlessType from "./pages/charts/rivetlessType/RivetlessType";
 import DragChains from "./pages/charts/dragChains/DragChains";
 import OffsetsideLinkChain from "./pages/charts/offsetsideLinkChain/OffsetsideLinkChain";
+import ReactGA from "react-ga";
 
 function App() {
+  const TRACKING_ID = "G-T97XLFRD1Y";
+  ReactGA.initialize(TRACKING_ID);
+
   return (
-    <BrowserRouter basename="galaxyconveyorfront">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
@@ -36,36 +36,31 @@ function App() {
         <Route path="/Contact" element={<ContactUsPage />}></Route>
         <Route path="/ProductPage" element={<ProductPage />}></Route>
         <Route path="/RollerChains" element={<RollerChains />}></Route>
-        {/* <Route
-          path="/ExtendedPitchChains"
-          element={<ExtendedPitchChains />}></Route> */}
-        {/* <Route path="/LeafChains" element={<LeafChains />}></Route> */}
-        {/* <Route path="/AttachmentChains" element={<AttachmentChains />}></Route> */}
-        {/* <Route
-          path="/AgricultureChains"
-          element={<AgricultureChains />}></Route> */}
-        <Route path="/ChartDemo" element={<ChartDemo />}></Route>
-
+         <Route path="/ChartDemo" element={<ChartDemo />}></Route>
         <Route
           path="/SmallRollerChains"
-          element={<SmallRollerChains />}></Route>
+          element={<SmallRollerChains />}
+        ></Route>
         <Route path="/FlangedRollers" element={<FlangedRollers />}></Route>
         <Route path="/BushChain" element={<BushChain />}></Route>
         <Route path="/FlowConveyor" element={<FlowConveyor />}></Route>
         <Route path="/WeldedChains" element={<WeldedChains />}></Route>
         <Route
           path="/HollowBearingPinChain"
-          element={<HollowBearingPinChain />}></Route>
+          element={<HollowBearingPinChain />}
+        ></Route>
         <Route
           path="/SolidBearingPinChain"
-          element={<SolidBearingPinChain />}></Route>
+          element={<SolidBearingPinChain />}
+        ></Route>
         <Route path="/RivetType" element={<RivetType />}></Route>
         <Route path="/DetachableType" element={<DetachableType />}></Route>
         <Route path="/RivetlessType" element={<RivetlessType />}></Route>
         <Route path="/DragChains" element={<DragChains />}></Route>
         <Route
           path="/OffsetsideLinkChain"
-          element={<OffsetsideLinkChain />}></Route>
+          element={<OffsetsideLinkChain />}
+        ></Route>
       </Routes>
       <Footer />
       <FooterDown />

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./DetachableType.css";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import images from "../../../constants/images";
 
 const DetachableType = () => {
   useEffect(() => {
@@ -15,7 +16,8 @@ const DetachableType = () => {
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
-          style={{ width: "100%", gap: "10px", padding: "2rem" }}>
+          style={{ width: "100%", gap: "10px", padding: "2rem" }}
+        >
           <h2 className="prodpage_thought_inner">Detachable Type Chains</h2>
           {/* <span>
             TRIPLE STRAND - TRIPLEX&nbsp;&nbsp;&nbsp;&nbsp;
@@ -24,7 +26,22 @@ const DetachableType = () => {
             606]
           </span> */}
         </div>
-
+        <div className="chart_chainGraph_imgs_main">
+          <div>
+            <img
+              src={images.DetachableBottlingChain_Image}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
+          <div>
+            <img
+              src={images.DetachableBottlingChain_Graph}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
+        </div>
         {/*  */}
         <div className="table_main">
           <table width="406">

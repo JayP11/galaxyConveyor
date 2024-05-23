@@ -165,7 +165,7 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Small Roller Chains",
-          img: require("../../assets/SmallRoller.jpg"),
+          img: require("../../assets/SmallRoller.png"),
           // category: "British Standard",
           link: "/SmallRollerChains",
         },
@@ -185,7 +185,8 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Bushed Chains",
-          img: require("../../assets/BushedChain.jpg"),
+          // img: require("../../assets/BushedChain.jpg"),
+          img: require("../../assets/BushedChain_Image.png"),
           link: "/BushChain",
         },
       ],
@@ -209,7 +210,7 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Welded Bushed Chains",
-          img: require("../../assets/WeldedBush.jpg"),
+          img: require("../../assets/WeldedBush.png"),
           link: "/WeldedChains",
         },
       ],
@@ -227,7 +228,7 @@ const ProductPage = () => {
         {
           id: 2,
           name: "Solid Bearing Pin Chain",
-          img: require("../../assets/SolidPin.jpg"),
+          img: require("../../assets/SolidPin.png"),
           link: "/SolidBearingPinChain",
         },
       ],
@@ -257,13 +258,13 @@ const ProductPage = () => {
         {
           id: 1,
           name: "Rivetless Type Chains",
-          img: require("../../assets/Rivetless.jpg"),
+          img: require("../../assets/Rivetless.png"),
           link: "/RivetlessType",
         },
         {
           id: 2,
           name: "Drag Chains",
-          img: require("../../assets/Drag.jpg"),
+          img: require("../../assets/Drag.png"),
           link: "/DragChains",
         },
       ],
@@ -322,7 +323,7 @@ const ProductPage = () => {
     {
       id: 1,
       name: "Small Roller Chains",
-      img: require("../../assets/SmallRoller.jpg"),
+      img: require("../../assets/SmallRoller.png"),
       // category: "British Standard",
       link: "/SmallRollerChains",
     },
@@ -342,7 +343,7 @@ const ProductPage = () => {
   return (
     <>
       <Helmet>
-        <title>Galaxy Conveyor | Products</title>
+        <title>Galaxy Conveyor Pvt. Ltd.| Products</title>
       </Helmet>
       <div style={{ background: "#F6F6F6" }}>
         <div className="prodpage_thought_main">
@@ -352,7 +353,8 @@ const ProductPage = () => {
         </div>
         <div
           className="industries_filter_title_main"
-          style={{ padding: "1rem 0px 4px 0px" }}>
+          style={{ padding: "1rem 0px 4px 0px" }}
+        >
           {category.map((item) => {
             return (
               <div
@@ -373,7 +375,8 @@ const ProductPage = () => {
                   setchild(item.list);
                   setColor(item.id);
                   SetCondition(true);
-                }}>
+                }}
+              >
                 <p>{item.name}</p>
               </div>
             );
@@ -400,7 +403,8 @@ const ProductPage = () => {
                         style={{
                           height: "100%",
                           width: "100%",
-                          objectFit: "cover",
+                          background: "#fff",
+                          objectFit: "fill",
                         }}
                       />
                     </div>
@@ -426,7 +430,9 @@ const ProductPage = () => {
                         style={{
                           height: "100%",
                           width: "100%",
-                          objectFit: "cover",
+                          background: "#fff",
+                          // background: "white",
+                          // objectFit: "contain",
                         }}
                       />
                     </div>

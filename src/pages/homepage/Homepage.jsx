@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <div>
       <Helmet>
-        <title>Galaxy Conveyor | Home</title>
+        <title>Galaxy Conveyor Pvt. Ltd.| Home</title>
       </Helmet>
       <HomePgHero />
       <Core_Values_Purpose />

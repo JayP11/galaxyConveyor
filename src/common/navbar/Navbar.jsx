@@ -12,7 +12,7 @@ const Navbar = () => {
     <div style={{ boxShadow: "rgba(0, 0, 0, 0.2) 0px 18px 50px -10px" }}>
       <div className="nav-main-nav">
         <nav className="Navbar_main">
-          <Link to="/" style={{ height: "85px", width: "85px" }}>
+          <Link to="/" style={{ width: "200px" }}>
             <img src={images.logo} alt="" style={{ width: "100%" }} />
           </Link>
           <div className="navbar_links_main">
@@ -27,7 +27,8 @@ const Navbar = () => {
                       : "black",
                   // fontWeight: "600",
                   fontWeight: location.pathname === "/" ? "600" : "500",
-                }}>
+                }}
+              >
                 Home
               </Link>
             </div>
@@ -41,7 +42,8 @@ const Navbar = () => {
                       ? "var(--color_orange_shade)"
                       : "black",
                   fontWeight: location.pathname === "/About" ? "600" : "500",
-                }}>
+                }}
+              >
                 About
               </Link>
             </div>
@@ -56,7 +58,8 @@ const Navbar = () => {
                       : "black",
                   fontWeight:
                     location.pathname === "/ProductPage" ? "600" : "500",
-                }}>
+                }}
+              >
                 Products
               </Link>
             </div>
@@ -110,7 +113,8 @@ const Navbar = () => {
                       : "black",
                   fontWeight: location.pathname === "/Contact" ? "600" : "500",
                   // fontWeight: "600",
-                }}>
+                }}
+              >
                 Contact
               </Link>
             </div>
@@ -136,7 +140,8 @@ const Navbar = () => {
                 <Link
                   to={"/"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link">
+                  className="mobile-nav-link"
+                >
                   Home
                 </Link>
               </li>
@@ -144,7 +149,8 @@ const Navbar = () => {
                 <Link
                   to="/About"
                   className="mobile-nav-link"
-                  onClick={() => setToggleMenu(false)}>
+                  onClick={() => setToggleMenu(false)}
+                >
                   About
                   <i className="fa fa-caret-down"></i>
                 </Link>
@@ -153,7 +159,8 @@ const Navbar = () => {
                 <Link
                   to="/ProductPage"
                   className="mobile-nav-link"
-                  onClick={() => setToggleMenu(false)}>
+                  onClick={() => setToggleMenu(false)}
+                >
                   Products
                   <i className="fa fa-caret-down"></i>
                 </Link>
@@ -183,7 +190,8 @@ const Navbar = () => {
                 <Link
                   to={"/Contact"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link">
+                  className="mobile-nav-link"
+                >
                   Contact
                 </Link>
               </li>

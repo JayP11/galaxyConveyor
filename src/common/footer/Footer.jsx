@@ -2,8 +2,9 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-import { FaSquarePhone } from "react-icons/fa6";
+import { FaSquarePhone, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import images from "../../constants/images";
 
 const Footer = () => {
   return (
@@ -25,18 +26,27 @@ const Footer = () => {
                 <h4 className="footer_link_color">Home</h4>
               </Link>
               <Link to="/About" className="link_decor_footer">
-                <h4 className="footer_link_color">About</h4>
+                <h4 className="footer_link_color">About us</h4>
               </Link>
               <Link to="/Contact" className="link_decor_footer">
                 <h4 className="footer_link_color">Contact us</h4>
               </Link>
-              <Link to="/ProductPage" className="link_decor_footer">
-                <h4 className="footer_link_color">Media</h4>
-              </Link>
+
               <Link to="/ProductPage" className="link_decor_footer">
                 <h4 className="footer_link_color">Products</h4>
               </Link>
-              <div style={{ marginTop: "4rem" }} className="link_decor_footer">
+              <div style={{ marginTop: "3rem" }} className="link_decor_footer">
+                <a
+                  href={images.catalogue}
+                  target="_blank"
+                  className="btn btn_catalogue"
+                  style={{
+                    padding: "10px 24px",
+                  }}>
+                  Download Catalogue
+                </a>
+              </div>
+              <div style={{ marginTop: "2rem" }} className="link_decor_footer">
                 <Link
                   to="/contact"
                   className="btn btn_org"
@@ -52,7 +62,7 @@ const Footer = () => {
         </div>
         <div className="Galaxy_Chains_block">
           <div style={{ color: "darkblue" }}>
-            <h3>Galaxy Chains pvt. ltd.</h3>
+            <h3>Galaxy Chains Pvt. Ltd.</h3>
           </div>
           <div
             className="underline"
@@ -82,14 +92,16 @@ const Footer = () => {
                   className="link_decor footer_link_color">
                   +91 90999 32799
                 </a>
-                &nbsp; /&nbsp;
+                {/* &nbsp; /&nbsp;
                 <a
                   href="tel:0281252218"
-                  className="link_decor footer_link_color">
-                  +0281 252218
-                </a>
+                  className="link_decor footer_link_color"
+                >
+                  +02827 252217
+                </a> */}
               </div>
             </div>
+
             <div
               style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
               <div>
@@ -97,9 +109,15 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="tel:912827254095"
+                  href="tel: 02827252217"
                   className="link_decor footer_link_color">
-                  +91 912827 254095
+                  02827 252217
+                </a>
+                &nbsp; /&nbsp;
+                <a
+                  href="tel:02827252218"
+                  className="link_decor footer_link_color">
+                  02827 252218
                 </a>
               </div>
             </div>
@@ -118,7 +136,7 @@ const Footer = () => {
 
         <div className="Galaxy_Chains_block">
           <div style={{ color: "darkorange" }}>
-            <h3>Galaxy Conveyors pvt. ltd.</h3>
+            <h3>Galaxy Conveyors Pvt. Ltd.</h3>
           </div>
           <div
             className="underline"
@@ -147,14 +165,16 @@ const Footer = () => {
                   className="link_decor footer_link_color">
                   +91 90999 32799
                 </a>
-                &nbsp; /&nbsp;
+                {/* &nbsp; /&nbsp;
                 <a
                   href="tel:0281252218"
-                  className="link_decor footer_link_color">
-                  +0281 252218
-                </a>
+                  className="link_decor footer_link_color"
+                >
+                  +02827 252217
+                </a> */}
               </div>
             </div>
+
             <div
               style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
               <div>
@@ -162,9 +182,15 @@ const Footer = () => {
               </div>
               <div>
                 <a
-                  href="tel:912827254095"
+                  href="tel: 02827252217"
                   className="link_decor footer_link_color">
-                  +91 912827 254095
+                  02827 252217
+                </a>
+                &nbsp; /&nbsp;
+                <a
+                  href="tel:02827252218"
+                  className="link_decor footer_link_color">
+                  02827 252218
                 </a>
               </div>
             </div>
@@ -182,6 +208,13 @@ const Footer = () => {
             <h5>CIN – U 31100 GJ 1990 PTC 13882</h5>
           </div>
         </div>
+      </div>
+      <div className="f-link-btn">
+        <a
+          href="http://api.whatsapp.com/send?phone=9099932789&text=Let%27s%20Get%20in%20Touch%20with%20Galaxy%20Conveyors."
+          target="_blank">
+          <FaWhatsapp />
+        </a>
       </div>
     </div>
   );

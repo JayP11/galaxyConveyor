@@ -17,7 +17,8 @@ const FlangedRollers = () => {
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
-          style={{ width: "100%", gap: "10px", padding: "2rem" }}>
+          style={{ width: "100%", gap: "10px", padding: "2rem" }}
+        >
           <h2 className="prodpage_thought_inner">Flanged Rollers Chains</h2>
           {/* <span>
             TRIPLE STRAND - TRIPLEX&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,6 +26,23 @@ const FlangedRollers = () => {
             &nbsp;&nbsp;&nbsp;&nbsp; [As per BS 228 / DIN 8187 / IS 2403 / ISO
             606]
           </span> */}
+        </div>
+
+        <div className="chart_chainGraph_imgs_main">
+          <div>
+            <img
+              src={images.FlangedChain_Image}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
+          <div>
+            <img
+              src={images.FlangedChain_Graph}
+              alt=""
+              className="chart_chainGraph_imgs_inner"
+            />
+          </div>
         </div>
 
         {/*  */}
@@ -133,4 +151,3 @@ const FlangedRollers = () => {
 };
 
 export default FlangedRollers;
-

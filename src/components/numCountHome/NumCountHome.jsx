@@ -175,10 +175,11 @@ const NumCountHome = () => {
       <div
         className=""
         style={{
-          backgroundImage: `url(${images.chain_img})`,
+          backgroundImage: `url(${images.chain_img_bg})`,
           backgroundSize: "cover",
           height: "100%",
-        }}>
+        }}
+      >
         <div
           className=""
           style={{
@@ -191,7 +192,8 @@ const NumCountHome = () => {
             flexDirection: "column",
             justifyContent: "flex-start",
             paddingBottom: "4rem",
-          }}>
+          }}
+        >
           <div className="heading" style={{ color: "darkgray" }}>
             <h1>Milestones</h1>
           </div>

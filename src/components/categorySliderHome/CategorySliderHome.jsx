@@ -31,7 +31,7 @@ const CategorySliderHome = () => {
           </div>
 
           <div className="cat_card_main">
-            <img src={images.cat_agriculture} alt="" />
+            <img src={images.cat_bushed} alt="" />
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
@@ -43,7 +43,8 @@ const CategorySliderHome = () => {
           </div>
 
           <div className="cat_card_main">
-            <img src={images.cat_leaf} alt="" />
+            {/* <img src={images.cat_leaf} alt="" /> */}
+            <img src={images.Flow_Conveyor} alt="" />
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
@@ -65,7 +66,8 @@ const CategorySliderHome = () => {
           </div>
 
           <div className="cat_card_main">
-            <img src={images.cat_extended} alt="" />
+            <img src={images.Hollow_Bearing_Pin_Chain} alt="" />
+            {/* <img src={images.cat_extended} alt="" /> */}
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
@@ -74,7 +76,8 @@ const CategorySliderHome = () => {
             </div>
           </div>
           <div className="cat_card_main">
-            <img src={images.cat_extended} alt="" />
+            {/* <img src={images.cat_extended} alt="" /> */}
+            <img src={images.Bottling_Chains} alt="" />
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>
@@ -83,7 +86,7 @@ const CategorySliderHome = () => {
             </div>
           </div>
           <div className="cat_card_main">
-            <img src={images.cat_extended} alt="" />
+            <img src={images.Forged_Chains} alt="" />
             <Link to="ProductPage" className="cat_arrow_main">
               <BsArrowRight color="#fff" size={20} />
             </Link>

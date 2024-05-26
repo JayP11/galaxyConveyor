@@ -1,5 +1,4 @@
-import React from "react";
-import { notification } from "antd";
+ import { notification } from "antd";
 // import "antd/dist/antd.css";
 
 const Notification = (type, message, description) => {

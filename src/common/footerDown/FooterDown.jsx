@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./FooterDown.css";
 import moment from "moment";
 

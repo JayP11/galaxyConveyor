@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./FlowConveyor.css";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { IoChevronBackCircle } from "react-icons/io5";
+ import { Helmet } from "react-helmet"; 
 import images from "../../../constants/images";
 
 const FlowConveyor = () => {

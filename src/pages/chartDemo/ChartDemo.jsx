@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect  } from "react";
 import "./ChartDemo.css";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+ import { Helmet } from "react-helmet";
 import { IoChevronBackCircle } from "react-icons/io5";
-import images from "../../constants/images";
-
+ 
 const ChartDemo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

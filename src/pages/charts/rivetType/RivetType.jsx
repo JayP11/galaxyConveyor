@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./RivetType.css";
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import images from "../../../constants/images";
 
@@ -16,8 +15,7 @@ const RivetType = () => {
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
-          style={{ width: "100%", gap: "10px", padding: "2rem" }}
-        >
+          style={{ width: "100%", gap: "10px", padding: "2rem" }}>
           <h2 className="prodpage_thought_inner">Rivet Type Chains</h2>
           {/* <span>
             TRIPLE STRAND - TRIPLEX&nbsp;&nbsp;&nbsp;&nbsp;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomePgHero.css";
-import images from "../../constants/images";
 import { Link } from "react-router-dom";
 const HomePgHero = () => {
   return (
@@ -67,8 +66,7 @@ const HomePgHero = () => {
 
 export default HomePgHero;
 
-{
-  /* <div
+/* <div
   style={{
     backgroundImage: `url(${images.Factory_img})`,
     backgroundSize: "cover",
@@ -123,4 +121,3 @@ export default HomePgHero;
     </div>
   </div>
 </div>; */
-}

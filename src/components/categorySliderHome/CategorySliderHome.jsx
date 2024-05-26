@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
 
 const CategorySliderHome = () => {
   return (

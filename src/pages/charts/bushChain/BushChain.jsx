@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./BushChain.css";
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { IoChevronBackCircle } from "react-icons/io5";
 import images from "../../../constants/images";
 
 const BushChain = () => {
@@ -17,8 +15,7 @@ const BushChain = () => {
       <div className="ChartDemo_main">
         <div
           className="prodpage_thought_main"
-          style={{ width: "100%", gap: "10px", padding: "2rem" }}
-        >
+          style={{ width: "100%", gap: "10px", padding: "2rem" }}>
           <h2 className="prodpage_thought_inner">Bush Chains</h2>
           {/* <span>
             TRIPLE STRAND - TRIPLEX&nbsp;&nbsp;&nbsp;&nbsp;

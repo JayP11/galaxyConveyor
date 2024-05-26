@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./AboutPage.css";
 import images from "../../constants/images";
 import { Helmet } from "react-helmet";
@@ -18,8 +18,7 @@ const AboutPage = () => {
             <Link
               className="GetQuoteHome_main"
               to="/"
-              style={{ minHeight: "100%" }}
-            >
+              style={{ minHeight: "100%" }}>
               Home&nbsp;&nbsp;/
             </Link>
             {"  "}
@@ -35,13 +34,11 @@ const AboutPage = () => {
               display: "flex",
               flexDirection: "column",
               gap: "0.5rem",
-            }}
-          >
+            }}>
             <span
               style={{
                 color: "var(--color-red)",
-              }}
-            >
+              }}>
               MANUFACTURER
               <br />
             </span>
@@ -83,8 +80,7 @@ const AboutPage = () => {
               <h1
                 style={{
                   color: "var(--color_orange_shade2",
-                }}
-              >
+                }}>
                 Galaxy Conveyor
               </h1>
             </div>
@@ -94,8 +90,7 @@ const AboutPage = () => {
                   style={{
                     color: "var(--color_orange_shade2)",
                     fontWeight: "700",
-                  }}
-                >
+                  }}>
                   34
                 </span>{" "}
                 Years Of Experience in Chain technology
@@ -110,13 +105,11 @@ const AboutPage = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "0.5rem",
-              }}
-            >
+              }}>
               <p
                 style={{
                   fontSize: "14px",
-                }}
-              >
+                }}>
                 {/* Galaxy Chains has specialized in chains that transmit mechanical
                 power and help us material handling. With more than 34 years of
                 experience in chain technology, the company today ranks among
@@ -136,13 +129,11 @@ const AboutPage = () => {
                 fontSize: "16px",
                 lineHeight: "1.3",
                 letterSpacing: "1px",
-              }}
-            >
+              }}>
               <p
                 style={{
                   fontSize: "14px",
-                }}
-              >
+                }}>
                 The Company has a completely integrated unit with state-of-
                 the-art manufacturing facilities for every critical operation.
                 The company and its brand name GALAXY are synonyms of
@@ -158,21 +149,18 @@ const AboutPage = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: "0.5rem",
-              }}
-            >
+              }}>
               <h2
                 style={{
                   color: "var(--color_orange_shade2)",
-                }}
-              >
+                }}>
                 Quality Roadmap
               </h2>
               <p
                 style={{
                   fontSize: "14px",
                   paddingTop: "0.5rem",
-                }}
-              >
+                }}>
                 Our commitment to excellence transcends product quality, as
                 evidenced by our certifications from esteemed organizations such
                 as ISI, UNICEF, and the American Petroleum Institute (API 7 F).
@@ -180,8 +168,7 @@ const AboutPage = () => {
               <p
                 style={{
                   fontSize: "14px",
-                }}
-              >
+                }}>
                 Galaxy Chains achieved remarkable success in its early days, as
                 it received product approval from the globally recognized
                 organization, UNICEF. With continuous efforts towards quality,
@@ -191,8 +178,7 @@ const AboutPage = () => {
               <p
                 style={{
                   fontSize: "14px",
-                }}
-              >
+                }}>
                 The technicians carry out periodic inspections of production
                 sites to ensure that work cycles are running smoothly. Their
                 primary focus is to monitor, supervise, define, and implement
@@ -217,15 +203,13 @@ const AboutPage = () => {
             alignItems: "center",
             textAlign: "center",
             gap: "1rem",
-          }}
-        >
+          }}>
           <div
             style={{
               display: "flex",
               gap: "0.5rem",
               flexDirection: "column",
-            }}
-          >
+            }}>
             <div>
               <h2 style={{ color: "white" }}>Manufacturing Capacity</h2>
             </div>
@@ -238,8 +222,7 @@ const AboutPage = () => {
               display: "flex",
               gap: "0.5rem",
               flexDirection: "column",
-            }}
-          >
+            }}>
             <div>
               <h2 style={{ color: "white" }}>Infrastructure Spread Over</h2>
             </div>
@@ -293,8 +276,7 @@ const AboutPage = () => {
             backdropFilter: "blur(2px)",
             WebkitBackdropFilter: "revert-layer",
             backgroundSize: "cover",
-          }}
-        >
+          }}>
           <div>
             <div className="heading" style={{ color: "#8b0000" }}>
               <h1>Certificates</h1>
@@ -325,21 +307,18 @@ const AboutPage = () => {
                 letterSpacing: "1px",
                 fontSize: "18px",
                 fontWeight: "700",
-              }}
-            >
+              }}>
               A legacy of 34 years and counting
             </p>
             <h2
               style={{
-                color: "var(--color-blue)",
+                // color: "var(--color-blue)",
                 color: "var(--color_orange_shade2)",
-              }}
-            >
+              }}>
               Connecting You To The Roots Of Our Past
             </h2>
             <div
-              style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-            >
+              style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <p>
                 Established in 1965, Galaxy Group was born out of a visionary's
                 desire to empower communities and create lasting impact. What

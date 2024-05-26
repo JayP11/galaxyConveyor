@@ -225,8 +225,7 @@ const Core_Values_Purpose = () => {
               textTransform: "uppercase",
               fontWeight: "800",
               textAlign: "center",
-            }}
-          >
+            }}>
             Core Purpose & Core Values
           </h1>
         </div>
@@ -238,6 +237,7 @@ const Core_Values_Purpose = () => {
           </h3>
 
           <img
+            alt=""
             style={{ height: "100px" }}
             src={images.core_purpose_head}
             className="core_purpose_head_img"

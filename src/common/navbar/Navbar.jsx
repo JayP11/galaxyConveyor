@@ -12,7 +12,7 @@ const Navbar = () => {
     <div style={{ boxShadow: "rgba(0, 0, 0, 0.2) 0px 18px 50px -10px" }}>
       <div className="nav-main-nav">
         <nav className="Navbar_main">
-          <Link to="/" style={{ width: "200px" }}>
+          <Link to="/" style={{ width: "240px" }}>
             <img src={images.logo} alt="" style={{ width: "100%" }} />
           </Link>
           <div className="navbar_links_main">

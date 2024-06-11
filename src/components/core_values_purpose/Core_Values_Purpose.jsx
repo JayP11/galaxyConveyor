@@ -260,7 +260,7 @@ const Core_Values_Purpose = () => {
       </div>
       <div className="core_purpose_main_flex">
         <div className="core_purpose_inner_flex">
-          <img src={images.core_img1} alt="" />
+          <img src={images.core_img1} alt="" style={{ height: "105px" }} />
           <p className="core_img_text">
             Relentless
             <br />
@@ -269,7 +269,7 @@ const Core_Values_Purpose = () => {
         </div>
 
         <div className="core_purpose_inner_flex">
-          <img src={images.core_img2} alt="" />
+          <img src={images.core_img2} alt="" style={{ height: "105px" }} />
           <p className="core_img_text">
             CUSTOMER -<br />
             Centric Approach
